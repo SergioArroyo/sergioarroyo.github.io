@@ -1,3 +1,8 @@
+html{
+  font-size: 18px;
+  line-height: 5;
+}
+
 header{
   flex-direction: column;
 }
@@ -45,6 +50,43 @@ header div:last-child{
   margin: auto;
 }
 
+.screen-full{
+  align-self: baseline;
+  margin-bottom: 2%;
+}
+
+.screen-half{
+  align-self: baseline;
+  margin-bottom: 2%;
+  width: 100%;
+}
+
+.screen-third{
+  align-self: baseline;
+  margin-bottom: 2%;
+  width: 49%;
+}
+
+.screen-portrait{
+  align-self: baseline;
+  margin-bottom: 2%;
+  width: 49%;
+}
+
+.ico{
+  align-self: center;
+  margin-bottom: 2%;
+  width: 49%;
+}
+
+.bottom-sprite{
+  width: 15%;
+}
+
+.phone-hide{
+  display: none;
+}
+
 #proyectos .flex{
   flex-wrap: wrap;
   justify-content: center;
@@ -65,7 +107,7 @@ header div:last-child{
 #proyectos .flex span{
   position: relative;
   overflow: hidden;
-  max-width: auto;
+  max-width: none;
   min-width: auto;
   width: 100%;
   min-height: auto;

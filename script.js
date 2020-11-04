@@ -68,7 +68,7 @@ function comprobarPagina(){
   var privtype = priv[priv.length -2];
   /*console.log(priv);
   console.log(privtype);*/
-  if (privtype.valueOf() === "privacy"){
+  if (privtype != null && privtype.valueOf() === "privacy"){
     ocultarHeader();
   }
 }
