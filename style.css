@@ -307,13 +307,13 @@ background-color: blue;
 }
 
 #proyectos h3{
-  margin: 20px;
+  margin: 0 20px 0 20px;
   font-size: 3rem;
 }
 
 #proyectos p{
-  margin: 20px;
-  padding-bottom: 0px;
+  margin: 0 20px 0 20px;
+  padding-bottom: 20px;
 }
 
 /*DETALLE*/
